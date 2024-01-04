@@ -13,26 +13,20 @@ uid: 021d8a0e-70c6-4737-bc1f-315eea727f84
 ### Shell vs. Editor
 
 1. You run the code below from the editor.   
-      
-    What's printed?   
-
-
-```plaintext
-I added this.
-```
+     What's printed?   
+     
+     ```plaintext
+     I added this.
+     ```
 
       
-    {{< quiz_multiple_choice questionId="Q1_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}} int {{< /quiz_choice >}}  
-    {{< quiz_choice isCorrect="true" >}} 2.0 {{< /quiz_choice >}}  
-    {{< quiz_choice isCorrect="false" >}} int then 2.0 {{< /quiz_choice >}}  
-    {{< quiz_choice isCorrect="false" >}} nothing {{< /quiz_choice >}}{{< /quiz_choices >}}  
-    {{< quiz_solution >}}  
-      
-     
-
+{{< quiz_multiple_choice questionId="Q1_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}} int {{< /quiz_choice >}}  
+{{< quiz_choice isCorrect="true" >}} 2.0 {{< /quiz_choice >}}  
+{{< quiz_choice isCorrect="false" >}} int then 2.0 {{< /quiz_choice >}}  
+{{< quiz_choice isCorrect="false" >}} nothing {{< /quiz_choice >}}{{< /quiz_choices >}}  
+{{< quiz_solution >}}  
 {{< resource uuid="9fa9dd0c-078c-0527-cd9d-278c902a9570" >}}
-
-1. {{< /quiz_solution >}}{{< /quiz_multiple_choice >}}
+{{< /quiz_solution >}}{{< /quiz_multiple_choice >}}
 
 ### Python vs. Math
 
