@@ -10,17 +10,27 @@ parent_uid: cc74bf5b-1a22-399e-2712-70abfff469d7
 title: Lecture 1
 uid: 021d8a0e-70c6-4737-bc1f-315eea727f84
 ---
+### test
+
+1. Apple cakes
+   
+    ```plaintext
+    tester yess
+    ss
+    ```
+
 ### Shell vs. Editor
 
-1. You run the code below from the editor.    
-    What's printed?    
+1. You run the code below from the editor.   
       
-    {{< quiz_multiple_choice questionId="Q1_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}} int {{< /quiz_choice >}}   
-    {{< quiz_choice isCorrect="true" >}} 2.0 {{< /quiz_choice >}}   
-    {{< quiz_choice isCorrect="false" >}} int then 2.0 {{< /quiz_choice >}}   
-    {{< quiz_choice isCorrect="false" >}} nothing {{< /quiz_choice >}}{{< /quiz_choices >}}   
+    What's printed?   
+
+      
+    {{< quiz_multiple_choice questionId="Q1_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}} int {{< /quiz_choice >}}  
+    {{< quiz_choice isCorrect="true" >}} 2.0 {{< /quiz_choice >}}  
+    {{< quiz_choice isCorrect="false" >}} int then 2.0 {{< /quiz_choice >}}  
+    {{< quiz_choice isCorrect="false" >}} nothing {{< /quiz_choice >}}{{< /quiz_choices >}}  
     {{< quiz_solution >}}  
-      
       
      
 
@@ -30,13 +40,13 @@ uid: 021d8a0e-70c6-4737-bc1f-315eea727f84
 
 ### Python vs. Math
 
-1. Which is allowed in Python?    
+1. Which is allowed in Python?   
       
-    {{< quiz_multiple_choice questionId="Q2_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}} x + y = 2 {{< /quiz_choice >}}   
-    {{< quiz_choice isCorrect="false" >}} x\*x = 2 {{< /quiz_choice >}}   
-    {{< quiz_choice isCorrect="false" >}} 2 = x {{< /quiz_choice >}}   
-    {{< quiz_choice isCorrect="true" >}} xy = 2 {{< /quiz_choice >}}   
-    {{< quiz_choice isCorrect="false" >}} None of the Above {{< /quiz_choice >}}{{< /quiz_choices >}}   
+    {{< quiz_multiple_choice questionId="Q2_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}} x + y = 2 {{< /quiz_choice >}}  
+    {{< quiz_choice isCorrect="false" >}} x\*x = 2 {{< /quiz_choice >}}  
+    {{< quiz_choice isCorrect="false" >}} 2 = x {{< /quiz_choice >}}  
+    {{< quiz_choice isCorrect="true" >}} xy = 2 {{< /quiz_choice >}}  
+    {{< quiz_choice isCorrect="false" >}} None of the Above {{< /quiz_choice >}}{{< /quiz_choices >}}  
     {{< quiz_solution >}}  
       
      
@@ -47,22 +57,35 @@ uid: 021d8a0e-70c6-4737-bc1f-315eea727f84
 
 ### Bindings
 
-1. You run the code below from the file editor.    
+1. You run the code below from the file editor.   
       
-    What's printed?    
+    What's printed?   
       
-    {{< quiz_multiple_choice questionId="Q3_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="true" >}} 74 then 74 {{< /quiz_choice >}}   
-    {{< quiz_choice isCorrect="false" >}} 74 then 75 {{< /quiz_choice >}}   
-    {{< quiz_choice isCorrect="false" >}} 74 {{< /quiz_choice >}}   
-    {{< quiz_choice isCorrect="false" >}} 75 {{< /quiz_choice >}}{{< /quiz_choices >}}   
+    {{< quiz_multiple_choice questionId="Q3_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="true" >}} 74 then 74 {{< /quiz_choice >}}  
+    {{< quiz_choice isCorrect="false" >}} 74 then 75 {{< /quiz_choice >}}  
+    {{< quiz_choice isCorrect="false" >}} 74 {{< /quiz_choice >}}  
+    {{< quiz_choice isCorrect="false" >}} 75 {{< /quiz_choice >}}{{< /quiz_choices >}}  
     {{< quiz_solution >}}  
       
-     l
+     
 
 {{< resource uuid="12c131f3-bb52-2b52-4ff1-2bb096c7920c" >}}
 
 1. {{< /quiz_solution >}}{{< /quiz_multiple_choice >}}
 
 ```plaintext
- I added this.
+usa_gold = 46
+uk_gold = 27
+romania_gold = 1
+
+total_gold = usa_gold + uk_gold + romania_gold
+print(total_gold)
+
+romania_gold += 1
+print(total_gold)
+```
+
+```plaintext
+type(5)
+print(3.0-1)
 ```
