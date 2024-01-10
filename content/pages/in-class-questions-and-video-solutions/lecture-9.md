@@ -15,24 +15,24 @@ uid: d168b144-bfeb-0cd9-daf8-c345966e90d4
 apple\_no\_way
 
 1. here\_here
-2. Which of the below is a getter method for the number of wheels?          
+2. Which of the below is a getter method for the number of wheels?           
       
-    get\_weebs 3    
+    get\_weebs 3     
       
     {{< quiz_multiple_choice questionId="Q1_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}}  
-    def get\_wheels():         
+    def get\_wheels():  `abc`         
     {{< /quiz_choice >}}  
       
-    def get\_wheels 2    
+    def get\_wheels 2     
       
     {{< quiz_choice isCorrect="false" >}}  
-    def get\_wheels():       
+    def get\_wheels():        
     {{< /quiz_choice >}}  
     {{< quiz_choice isCorrect="false" >}}  
-    def get\_wheels(self):         
+    def get\_wheels(self):          
     {{< /quiz_choice >}}  
     {{< quiz_choice isCorrect="true" >}}  
-    def get\_wheels(self):         
+    def get\_wheels(self):          
     {{< /quiz_choice >}}{{< /quiz_choices >}}  
     {{< quiz_solution >}}  
       
@@ -44,19 +44,19 @@ apple\_no\_way
 
 ### Subclass
 
-1. What line could replace `____blank____` to create a class that inherits from `Animal` in the code below?          
+1. What line could replace `____blank____` to create a class that inherits from `Animal` in the code below?           
       
-    {{< quiz_multiple_choice questionId="Q2_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="true" >}} class Dog(Animal): {{< /quiz_choice >}}         
-    {{< quiz_choice isCorrect="false" >}} class Animal(Dog): {{< /quiz_choice >}}         
-    {{< quiz_choice isCorrect="false" >}} class Dog(object) {{< /quiz_choice >}}{{< /quiz_choices >}}         
+    {{< quiz_multiple_choice questionId="Q2_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="true" >}} class Dog(Animal): {{< /quiz_choice >}}          
+    {{< quiz_choice isCorrect="false" >}} class Animal(Dog): {{< /quiz_choice >}}          
+    {{< quiz_choice isCorrect="false" >}} class Dog(object) {{< /quiz_choice >}}{{< /quiz_choices >}}          
     {{< quiz_solution >}}{{< /quiz_solution >}}{{< /quiz_multiple_choice >}}
 
 With this definition of Dog, you run a program with line1, line2, and line3 above. What happens? Refer to the lecture slides for the code making up the "Animal" class.
 
-{{< quiz_multiple_choice questionId="Q3_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}} Error on (line1) because Dog does not have an \_\_init\_\_ {{< /quiz_choice >}}         
-{{< quiz_choice isCorrect="false" >}} Uses the \_\_init\_\_ from Animal, but then an error (line2) because Dog does not have a set\_name method. {{< /quiz_choice >}}         
-{{< quiz_choice isCorrect="false" >}} Uses the \_\_init\_\_ and set\_name from Animal, but then an error (line3) because all methods must return something. {{< /quiz_choice >}}         
-{{< quiz_choice isCorrect="true" >}} Runs, creates a Dog object with age=7 and name="Ruffles", and prints "ruff ruff" {{< /quiz_choice >}}{{< /quiz_choices >}}         
+{{< quiz_multiple_choice questionId="Q3_div" >}}{{< quiz_choices >}}{{< quiz_choice isCorrect="false" >}} Error on (line1) because Dog does not have an \_\_init\_\_ {{< /quiz_choice >}}          
+{{< quiz_choice isCorrect="false" >}} Uses the \_\_init\_\_ from Animal, but then an error (line2) because Dog does not have a set\_name method. {{< /quiz_choice >}}          
+{{< quiz_choice isCorrect="false" >}} Uses the \_\_init\_\_ and set\_name from Animal, but then an error (line3) because all methods must return something. {{< /quiz_choice >}}          
+{{< quiz_choice isCorrect="true" >}} Runs, creates a Dog object with age=7 and name="Ruffles", and prints "ruff ruff" {{< /quiz_choice >}}{{< /quiz_choices >}}          
 {{< quiz_solution >}}
 
 {{< resource uuid="3132d269-6354-5a69-3b6e-44be988225f9" >}}
